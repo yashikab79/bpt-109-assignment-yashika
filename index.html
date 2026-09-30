@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Answers to all eight questions in BPT-109 Assignment 1 on computers, input and output devices, and accessible systems.">
+  <title>BPT-109 Assignment 1 | Eight Answers</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%232a3851'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-size='34' fill='white' font-family='serif'%3E8%3C/text%3E%3C/svg%3E">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Yeseva+One&display=swap');
+
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: #f7f6f1; color: #26312f; font: 400 17px/1.7 'Josefin Sans', Arial, sans-serif; }
+    .page { max-width: 900px; margin: auto; padding: 46px 28px 24px; }
+    a { color: #235a59; text-underline-offset: 3px; }
+    .meta { color: #596d67; font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; }
+    header { border-bottom: 1px solid #bdc8c1; padding-bottom: 38px; }
+    h1, h2 { font-family: 'Yeseva One', Georgia, serif; font-weight: 400; letter-spacing: -.02em; }
+    h1 { font-size: clamp(2.7rem, 6vw, 4.7rem); line-height: 1.08; max-width: 680px; margin: 20px 0; }
+    header p:last-child { max-width: 600px; color: #53615c; margin-bottom: 0; }
+    nav { padding: 28px 0 38px; border-bottom: 1px solid #bdc8c1; }
+    nav h2 { font: 600 .82rem 'Josefin Sans', Arial, sans-serif; letter-spacing: .12em; text-transform: uppercase; margin: 0 0 14px; }
+    nav ol { list-style: decimal-leading-zero; display: grid; grid-template-columns: 1fr 1fr; gap: 0 44px; padding-left: 30px; margin: 0; }
+    nav li { padding: 7px 0; border-bottom: 1px solid #d9ded8; color: #69827a; }
+    nav a { text-decoration: none; color: #26312f; }
+    nav a:hover, nav a:focus { text-decoration: underline; }
+    article { padding: 47px 0 43px; border-bottom: 1px solid #bdc8c1; }
+    article h2 { font-size: clamp(1.8rem, 3.6vw, 2.5rem); line-height: 1.2; margin: 0 0 19px; }
+    h3 { font-size: 1.05rem; margin-top: 30px; }
+    .prompt { border-left: 3px solid #698c7d; padding: 8px 0 8px 18px; color: #455650; }
+    .prompt strong { color: #26312f; }
+    li { padding-left: 3px; margin: 7px 0; }
+    table { border-collapse: collapse; width: 100%; margin: 22px 0; font-size: .92rem; line-height: 1.45; }
+    caption { text-align: left; color: #596d67; font-size: .84rem; padding-bottom: 9px; }
+    th, td { text-align: left; vertical-align: top; padding: 11px 12px; border-bottom: 1px solid #cbd4ce; }
+    thead th { background: #e8ede7; font-weight: 600; }
+    tbody th { font-weight: 600; }
+    figure { margin: 22px 0; }
+    figcaption, small { color: #596d67; }
+    .return { margin-top: 28px; font-size: .9rem; }
+    footer { color: #596d67; font-size: .85rem; padding: 26px 0 12px; }
+    @media (max-width: 650px) { .page { padding: 28px 18px; } nav ol { grid-template-columns: 1fr; } table { display: block; overflow-x: auto; } th, td { min-width: 125px; } }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header id="top">
+      <p class="meta">BPT Assignment</p>
+      <h1>Introduction to Computers</h1>
+      <p><strong>Subject:</strong> Information and Technology 109<br>
+         <strong>Student Name:</strong> Yashika<br>
+         <strong>Roll No:</strong> 1826098</p>
+    </header>
+    <nav id="contents" aria-label="Question navigation">
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#q1">Characteristics and generations</a></li>
+        <li><a href="#q2">Functional block diagram</a></li>
+        <li><a href="#q3">Campus scanning and card readers</a></li>
+        <li><a href="#q4">Computer languages</a></li>
+        <li><a href="#q5">Pointing devices and digitizers</a></li>
+        <li><a href="#q6">Blueprint output systems</a></li>
+        <li><a href="#q7">Face and voice biometrics</a></li>
+        <li><a href="#q8">Accessible workstation</a></li>
+      </ol>
+    </nav>
+
+  <main>
+    <article id="q1">
+      <h2>1. Characteristics of computers and five generations</h2>
+      <p class="prompt"><strong>Question.</strong> List four primary characteristics of a modern digital computer and identify the key hardware technology associated with each of the five generations of computers.</p>
+      <h3>Four characteristics</h3>
+      <ol>
+        <li><strong>Speed:</strong> Executes very large numbers of instructions in a short time.</li>
+        <li><strong>Accuracy:</strong> Produces precise results when its input, instructions, and hardware are correct.</li>
+        <li><strong>Storage:</strong> Holds programs and data for immediate use in memory and for long-term use in storage devices.</li>
+        <li><strong>Automation:</strong> Follows a stored program to complete a sequence of operations with little intervention.</li>
+      </ol>
+      <h3>Hardware across generations</h3>
+      <table>
+        <caption>Common textbook classification of computer generations</caption>
+        <thead><tr><th scope="col">Generation</th><th scope="col">Key hardware technology</th><th scope="col">What changed</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">First</th><td>Vacuum tubes</td><td>Electronic switching replaced mechanical switching; systems were large and power hungry.</td></tr>
+          <tr><th scope="row">Second</th><td>Transistors</td><td>Smaller, cooler, and more reliable switching.</td></tr>
+          <tr><th scope="row">Third</th><td>Integrated circuits (ICs)</td><td>Multiple electronic components were fabricated on a chip.</td></tr>
+          <tr><th scope="row">Fourth</th><td>Microprocessors built with large-scale integration</td><td>The CPU could fit on one chip, enabling personal computers.</td></tr>
+          <tr><th scope="row">Fifth</th><td>Very-large-scale integration (VLSI/ULSI) and parallel-processing hardware</td><td>Dense chips and multiple processors support advanced computing, including AI applications.</td></tr>
+        </tbody>
+      </table>
+      <p><small>Note: “Fifth generation” is a broad textbook label associated with AI-oriented computing; it does not denote one exclusive chip type.</small></p>
+      <p class="return"><a href="#contents">&uarr; Contents</a></p>
+    </article>
+
+    <article id="q2">
+      <h2>2. Flow through the functional block diagram</h2>
+      <p class="prompt"><strong>Question.</strong> Explain the flow of data, instructions, and control signals within the functional block diagram of a computer, detailing the interaction between the CPU, memory unit, and I/O interface.</p>
+      <figure>
+        <table>
+          <caption>Functional blocks and their connections</caption>
+          <tbody>
+            <tr><td><strong>Input devices</strong><br>keyboard, scanner</td><td>&rarr; I/O interface &rarr;</td><td rowspan="2"><strong>Memory</strong><br>instructions and data</td><td rowspan="2">&harr;<br>address, data, and control buses<br>&harr;</td><td rowspan="2"><strong>CPU</strong><br>control unit, ALU, registers</td></tr>
+            <tr><td><strong>Output devices</strong><br>monitor, printer</td><td>&larr; I/O interface &larr;</td></tr>
+          </tbody>
+        </table>
+        <figcaption>The I/O interface transfers information between devices and the computer; the CPU coordinates processing.</figcaption>
+      </figure>
+      <ol>
+        <li><strong>Input:</strong> The I/O interface receives device data, converts or buffers it as needed, and makes it available to memory or the CPU.</li>
+        <li><strong>Fetch:</strong> The CPU's control unit sends an address to memory and a read signal. Memory returns the instruction on the data bus.</li>
+        <li><strong>Decode and execute:</strong> The control unit interprets the instruction. The CPU fetches required data; its arithmetic logic unit (ALU) performs the operation using registers for immediate values.</li>
+        <li><strong>Store and output:</strong> The CPU sends a result to memory with a write signal, or sends it through the I/O interface to an output device.</li>
+      </ol>
+      <p><strong>Three kinds of signals:</strong> The <em>address bus</em> selects a memory location or device; the <em>data bus</em> carries instructions and values; and the <em>control bus</em> carries read, write, timing, and other coordination signals. Devices may also send an interrupt to request CPU attention.</p>
+      <p class="return"><a href="#contents">&uarr; Contents</a></p>
+    </article>
+
+    <article id="q3">
+      <h2>3. Scanners and card readers on campus</h2>
+      <p class="prompt"><strong>Question.</strong> Demonstrate how optical data scanning devices (e.g., barcode/OMR scanners) and electronic card readers (e.g., RFID/smart card readers) can be deployed in a campus environment to automate student attendance and library checkouts.</p>
+      <table>
+        <caption>Example campus deployment</caption>
+        <thead><tr><th scope="col">Task</th><th scope="col">Device and action</th><th scope="col">System result</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Class attendance</th><td>At the classroom entrance, a student taps an RFID/smart ID card. A supervised class could alternatively scan a time-limited barcode displayed in a campus app.</td><td>The system checks the ID against the class roster and session time, records one attendance event, and shows confirmation to the student and teacher.</td></tr>
+          <tr><th scope="row">Paper attendance backup</th><td>Students mark bubbles beside their assigned IDs on a properly designed attendance sheet; an OMR scanner reads the marks.</td><td>Software matches marks to the roster, flags unclear or duplicate marks for review, and imports the verified attendance.</td></tr>
+          <tr><th scope="row">Library checkout</th><td>A librarian scans the book's barcode or RFID tag, then reads the student's smart card.</td><td>The catalog links the item to the borrower's account, checks loan rules, sets a due date, and issues a receipt.</td></tr>
+          <tr><th scope="row">Library return</th><td>The item is scanned again at the desk or a return station.</td><td>The catalog closes the loan and updates item availability.</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Practical safeguards:</strong> A card tap proves possession of a card, not necessarily presence of its owner. Use a teacher-visible confirmation or a second check where needed; prevent repeat scans, provide a manual fallback for damaged cards, and restrict access to student records.</p>
+      <p class="return"><a href="#contents">&uarr; Contents</a></p>
+    </article>
+
+    <article id="q4">
+      <h2>4. Low-level and high-level languages</h2>
+      <p class="prompt"><strong>Question.</strong> Distinguish between low-level languages (Machine and Assembly) and high-level languages in terms of execution speed, hardware dependence, translation requirements, and programming complexity.</p>
+      <table>
+        <caption>Language categories compared</caption>
+        <thead><tr><th scope="col">Criterion</th><th scope="col">Machine language</th><th scope="col">Assembly language</th><th scope="col">High-level language</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Form</th><td>Binary instructions in the processor's instruction set.</td><td>Mnemonics and symbolic labels closely matching machine instructions.</td><td>Human-readable statements and abstractions such as functions and data types.</td></tr>
+          <tr><th scope="row">Execution speed</th><td>Runs directly on its intended CPU.</td><td>Assembled code runs as machine code; a skilled programmer can tune critical routines.</td><td>Compiled code can be equally fast for many tasks; interpreted or virtual-machine execution may add overhead.</td></tr>
+          <tr><th scope="row">Hardware dependence</th><td>Specific to a CPU instruction set.</td><td>Usually specific to a CPU architecture and its assembler.</td><td>Generally more portable when a suitable compiler or interpreter exists.</td></tr>
+          <tr><th scope="row">Translation</th><td>No language translator at execution; code is already in machine form.</td><td>An assembler converts mnemonics to machine code.</td><td>A compiler or interpreter translates or executes the program, depending on the language and implementation.</td></tr>
+          <tr><th scope="row">Programming complexity</th><td>Hardest to write, read, and debug.</td><td>Requires detailed knowledge of registers, memory, and hardware.</td><td>Easier to develop and maintain for larger programs.</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Conclusion:</strong> Language level alone does not determine the speed of a finished program; the algorithm, compiler, hardware, and implementation also matter.</p>
+      <p class="return"><a href="#contents">&uarr; Contents</a></p>
+    </article>
+
+    <article id="q5">
+      <h2>5. Point-and-draw devices versus digitizers</h2>
+      <p class="prompt"><strong>Question.</strong> Compare point-and-draw devices (such as a mouse and trackball) with graphics digitizers/drawing tablets, highlighting how their coordinate tracking mechanisms and pressure sensitivity differ for CAD and digital art applications.</p>
+      <table>
+        <caption>Input mechanism and suitability</caption>
+        <thead><tr><th scope="col">Feature</th><th scope="col">Mouse / trackball</th><th scope="col">Graphics tablet / digitizer</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Coordinate tracking</th><td>An optical mouse senses movement across a surface; a trackball senses rotation of its ball. Both usually send relative movement that moves an on-screen pointer.</td><td>The tablet senses a stylus position on its active area, commonly mapping it to an absolute screen coordinate. Some tablets also offer relative mode.</td></tr>
+          <tr><th scope="row">Precision</th><td>Good for selecting tools, manipulating objects, and entering exact CAD dimensions through software.</td><td>Natural hand-to-cursor positioning helps freehand tracing and detailed strokes; CAD accuracy still depends on calibration, software snaps, and dimensions.</td></tr>
+          <tr><th scope="row">Pressure and tilt</th><td>Ordinary mouse buttons and trackballs do not supply continuous pen pressure or tilt.</td><td>Supported styluses can report pressure and sometimes tilt, letting software change stroke width or opacity.</td></tr>
+          <tr><th scope="row">Best fit</th><td>Mouse: general CAD navigation and precise clicks. Trackball: similar work where desk movement is limited.</td><td>Digital illustration, handwriting, tracing, and freehand design; also useful for CAD sketch input.</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Example:</strong> In CAD, a mouse can select a line tool and type an exact length. In digital painting, stylus pressure can make one continuous stroke thin at the start and thick in the middle.</p>
+      <p class="return"><a href="#contents">&uarr; Contents</a></p>
+    </article>
+
+    <article id="q6">
+      <h2>6. Output system for civil engineering blueprints</h2>
+      <p class="prompt"><strong>Question.</strong> Assess whether a drum/flatbed plotter or an ultra-high-definition monitor and large-format printer combination is superior for producing civil engineering blueprints, justifying your selection based on line resolution, scalability, and long-term production costs.</p>
+      <p><strong>Selection:</strong> For a typical modern civil engineering office, use a high-resolution monitor for on-screen review and a large-format technical printer for final sheets. Keep a pen plotter only if a specialized workflow specifically needs its pen-drawn output.</p>
+      <table>
+        <caption>Trade-offs for plan production</caption>
+        <thead><tr><th scope="col">Criterion</th><th scope="col">Drum / flatbed pen plotter</th><th scope="col">Monitor + large-format printer</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Line resolution</th><td>Draws continuous vector paths with a physical pen; line quality depends on pen width, paper, calibration, and condition. Excellent for clean line work, but slower with dense fills and images.</td><td>The monitor lets staff inspect fine CAD details before printing. A technical printer produces controlled line weights and also handles text, hatching, color, and raster imagery; output quality depends on the device and chosen resolution.</td></tr>
+          <tr><th scope="row">Scalability</th><td>Handles supported sheet sizes, but pen changes and mechanical drawing time limit throughput for complex or repeated plans.</td><td>CAD files can be reviewed, revised, shared, and printed at multiple supported sheet sizes. Batch printing and mixed-content plans are easier to manage.</td></tr>
+          <tr><th scope="row">Long-term cost</th><td>Specialized pens, mechanical upkeep, and slower production can raise labor and maintenance costs.</td><td>Printer, ink/toner, media, and servicing cost money, but faster revisions and higher throughput usually lower the cost per routine office drawing over time.</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Qualification:</strong> Neither an ultra-high-definition screen nor a printer's advertised dots per inch guarantees accurate scale. Check CAD line weights, page size, print scale, device calibration, and a sample sheet before issuing drawings.</p>
+      <p class="return"><a href="#contents">&uarr; Contents</a></p>
+    </article>
+
+    <article id="q7">
+      <h2>7. Facial recognition and voice recognition as biometrics</h2>
+      <p class="prompt"><strong>Question.</strong> Critique the operational reliability and security vulnerabilities of vision-input devices (facial recognition) compared to voice recognition devices when deployed as primary biometric authentication tools in high-ambient-noise, publicly exposed environments.</p>
+      <table>
+        <caption>Reliability and security in an open, noisy setting</caption>
+        <thead><tr><th scope="col">Issue</th><th scope="col">Facial recognition</th><th scope="col">Voice recognition</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Ambient noise</th><td>Usually unaffected by sound, though crowd movement may obscure the camera.</td><td>Background speech and machinery can mask the user's voice and cause failed or incorrect matches.</td></tr>
+          <tr><th scope="row">Other reliability limits</th><td>Lighting, glare, camera angle, masks, and changes in appearance affect matching.</td><td>Illness, accent or speaking style, microphone quality, and distance affect matching.</td></tr>
+          <tr><th scope="row">Attack surface</th><td>Photos, video, masks, or manipulated camera feeds can be used against weak systems.</td><td>Recordings, synthetic speech, replay, or microphone-feed manipulation can be used against weak systems; speech may be captured in public.</td></tr>
+          <tr><th scope="row">Privacy</th><td>Public cameras may capture bystanders and expose face templates if mishandled.</td><td>Spoken phrases can be overheard, and stored voice templates are sensitive personal data.</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Assessment:</strong> A face system is generally more usable than voice alone in persistent high noise, provided lighting and camera placement are controlled. Neither should be the sole security factor for an important account in a public space. Use tested presentation-attack detection, rate limits, secure template storage, a second factor such as a card or PIN, and an accessible fallback. Require consent and minimize retention of biometric data.</p>
+      <p class="return"><a href="#contents">&uarr; Contents</a></p>
+    </article>
+
+    <article id="q8">
+      <h2>8. Accessible hands-free workstation</h2>
+      <p class="prompt"><strong>Question.</strong> Design an accessible, hands-free computer workstation tailored for a visually impaired user. Propose a coherent integration of non-visual input devices (such as voice recognition systems and tactile keyboards) with specialized output devices (such as voice response synthesizers and screen readers).</p>
+      <p><strong>Proposed setup:</strong> A computer with a microphone headset, speech-recognition commands, a screen reader with text-to-speech, a tactile keyboard for optional backup input, and headphones or a discreet speaker. An optional refreshable Braille display supports precise reading where useful.</p>
+      <ol>
+        <li><strong>Start and orient:</strong> On sign-in, the screen reader announces the current window, focused control, and available actions. A spoken command such as “open notes” launches the requested application.</li>
+        <li><strong>Navigate:</strong> Speech commands move focus to headings, links, fields, and buttons. The screen reader announces labels and state so the user knows what is selected.</li>
+        <li><strong>Write:</strong> Dictation enters text. The user can say commands such as “new paragraph” and “read last sentence”; the synthesizer reads the result for correction.</li>
+        <li><strong>Confirm actions:</strong> The system repeats high-impact actions, such as sending a document, and waits for a clear “confirm.” Spoken status messages report success or an error.</li>
+        <li><strong>Recover:</strong> A tactile keyboard with familiar key landmarks and screen-reader shortcuts remains available if recognition fails or speech is inappropriate. Braille output can help with spelling, punctuation, code, and private text.</li>
+      </ol>
+      <p><strong>Integration requirements:</strong> Use applications with accessible names and keyboard focus order; let the user change speech rate, voice, and volume; support a push-to-talk control to reduce accidental commands; provide headphones for privacy; and offer a non-biometric sign-in method. “Hands-free” is the primary workflow, while tactile input is an optional reliable fallback.</p>
+      <p class="return"><a href="#contents">&uarr; Contents</a></p>
+    </article>
+  </main>
+
+  <footer><p>BPT-109 Assignment 01 &nbsp;&middot;&nbsp; Units 1 and 2</p></footer>
+  </div>
+</body>
+</html>
